@@ -1,0 +1,35 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeMessages">
+        <item name="android:textColor">@color/colorBlack_Gray</item>
+        <item name="android:background">@color/colorGray</item>
+    </style>
+
+    <style name="MessagesAddresser" parent="ThemeMessages">
+        <item name="android:textSize">@dimen/size_text_14</item>
+    </style>
+
+    <style name="Messages" parent="ThemeMessages">
+        <item name="android:textSize">@dimen/size_text_12</item>
+    </style>
+
+    <style name="MessagesTime" parent="ThemeMessages">
+        <item name="android:textSize">@dimen/size_text_11</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
