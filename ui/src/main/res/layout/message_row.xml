@@ -75,7 +75,7 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="20dp"
-            android:src="@drawable/ic_adjust_black_24dp" />
+            android:src="@drawable/ic_read_message_status_24dp" />
 
         <TextView
             android:layout_width="match_parent"
